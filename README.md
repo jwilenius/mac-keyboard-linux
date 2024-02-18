@@ -33,3 +33,7 @@ sudo update-initramfs -u -k all
 
 ## Manjaro / arch linux
 https://wiki.archlinux.org/title/Apple_Keyboard)https://wiki.archlinux.org/title/Apple_Keyboard
+To update presets:
+```
+mkinitcpio -P
+```
